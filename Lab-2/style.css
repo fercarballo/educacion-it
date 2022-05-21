@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;900&display=swap");
+
+body {
+  background-color: black;
+  text-align: center;
+  border: 0.8px solid black;
+}
+
+header {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 66px;
+}
+
+section h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 197px;
+  background-color: white;
+  width: 100%;
+}
+
+section h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 217px;
+  color: white;
+}
+
+main p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  background-color: white;
+}
+main p strong {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 60px;
+}
+
+footer {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 58px;
+  color: white;
+}
