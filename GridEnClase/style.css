@@ -1,0 +1,99 @@
+body {
+  max-width: 1366px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 0;
+  background-color: rgb(103, 122, 122);
+}
+a {
+  color: white;
+  text-decoration: none;
+  letter-spacing: 5px;
+}
+.header {
+  display: flex;
+  margin: 3rem;
+  width: 77%;
+}
+.icon {
+  width: 150px;
+  height: 150px;
+  border-radius: 150px;
+  margin-left: 2rem;
+}
+.section-header {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  width: 100%;
+}
+.section-header ul {
+  display: flex;
+  width: 350px;
+}
+.section-header ul li {
+  display: flex;
+  width: 350px;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.img-main {
+  width: 1050px;
+  align-self: center;
+  justify-self: center;
+  padding: 2rem;
+  margin: 0 auto;
+  border-radius: 46px;
+}
+
+.images {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+}
+.image {
+  width: 150px;
+  height: 150px;
+  background-color: black;
+  margin: 1rem;
+  border-radius: 16px;
+}
+
+.img-picture {
+  width: 220px;
+  height: 160px;
+  margin-top: 2rem;
+  border-radius: 16px;
+}
+.aside-ul {
+  text-decoration: none;
+  padding: 0;
+}
+.aside-ul li {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 2rem;
+  text-align: center;
+  text-decoration: none;
+  list-style: none;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  margin: 0 auto;
+  text-align: center;
+  padding: 2rem;
+}
