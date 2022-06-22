@@ -1,0 +1,36 @@
+.container {
+  margin: 0 auto;
+  max-width: 180px;
+
+  border: 1px solid black;
+}
+.button {
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  position: relative;
+}
+
+.button + .ul {
+  display: none;
+}
+
+.button:hover + ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.ul:hover {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+p{
+  font: Arial 12px;
+}

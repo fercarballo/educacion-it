@@ -126,3 +126,7 @@ form input {
   text-align: center;
   padding: 20px;
 }
+
+.izquierda {
+  margin-right: 15px;
+}
